@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
  * main - print a line of code using puts function
  *
  * Return: 0
+ * Description:  This prints out a statement using puts function in c programming
  */
 
 int main(void)
