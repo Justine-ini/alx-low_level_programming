@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
- * main - A c programme tha prints a string
+ * main - A c programme that prints using printf
  *
  * Return: 0
- * Description:  Write a program using printf to print a series of atrings
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art, ");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
