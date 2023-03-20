@@ -1,12 +1,18 @@
-#include <stdio.h>
 #include <unistd.h>
 /**
- * main - Start
+ * main - 101-qoute.c
+ * description - Write a C program that prints exactly and that piece of
+ * art is useful\"
+ *  - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
-	return (1);
+        write(2,
+              "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+              59);
+
+        return (1);
 }
+
