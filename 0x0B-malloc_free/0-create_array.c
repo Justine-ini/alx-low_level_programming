@@ -18,9 +18,13 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
+	ptr = (char *)malloc(size * sizeof(char));
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
 	if (size >= 1)
 	{
-		ptr = malloc(size * sizeof(char));
 		for (count = 0; count < size; count++)
 		{
 			ptr[count] = c;
