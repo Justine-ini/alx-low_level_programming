@@ -7,15 +7,6 @@
  * @max:the maximum value of the range
  * Return: a pointer to the array of integers
  */
-#include "main.h"
-#include <stdlib.h>
-
-/**
- * array_range - Main Entry
- * @min: input
- * @max: input
- * Return: 0
- */
 int *array_range(int min, int max)
 {
 	int i, l;
