@@ -5,6 +5,7 @@
 /**
  * print_dog - Prints name, age and owner if not null.
  * @d: is pointer to the struct dog.
+ *
  * Return: void
 */
 
@@ -25,7 +26,7 @@ void print_dog(struct dog *d)
 	printf("Age: %.6f\n", d->age);
 	if (d->owner == NULL)
 	{
-		printf("owner:(nil)\n");
+		printf("(nil)\n");
 	}
 	else
 	{
