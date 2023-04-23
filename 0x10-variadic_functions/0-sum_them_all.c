@@ -4,7 +4,7 @@
 /**
 * sum_them_all - return sum when given unknown arguments
 * @n: integers to add
-* Return: sum
+* Return: sum.
 */
 
 
