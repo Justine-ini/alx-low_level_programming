@@ -5,21 +5,24 @@
  * @head: head of a list.
  * Return: head node's data.
  */
-
 int pop_listint(listint_t **head)
 {
-	listint_t *current;
-	listint_t *temp;
 	int h_node;
+	listint_t *temp;
+	listint_t *current;
 
-	if (head == NULL)
-	{
+	if (*head == NULL)
 		return (0);
-	}
-	temp = *head;
-	h_node = temp->n;
-	current = temp->next;
-	free(temp);
-	*head = current;
+
+	current = *head;
+
+	h_node = current->n;
+
+	temp = current->next;
+
+	free(current);
+
+	*head = temp;
+
 	return (h_node);
 }
