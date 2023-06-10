@@ -9,7 +9,7 @@
  * argv[0] should be the program name and argv[1] should
  * be the amount of money.
  * Return: 0 on success, 1 if the amount is not given or
- * there are too many arguments,
+ * there are too many arguments
  * or prints "0" if the amount is negative.
  */
 int main(int argc, char *argv[])
