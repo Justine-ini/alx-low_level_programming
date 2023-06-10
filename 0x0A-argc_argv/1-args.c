@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point of the program
- * @argc: Number of command-line arguments
+ * @argc: Number of command-line argument
  * @argv: Array containing the command-line arguments
  *
  * Return: Always 0
