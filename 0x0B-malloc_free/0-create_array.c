@@ -6,7 +6,7 @@
  * and initializes it with a specific char
  *
  * @size: input
- * @ @c: input
+ * @c: input
  * Return: NULL if size = 0
  * a pointer to the array, or NULL if it fails
  */
@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	arr = (char*) malloc(size * sizeof(char));
+	arr = (char *) malloc(size * sizeof(char));
 
 	if (arr == NULL)
 	{
