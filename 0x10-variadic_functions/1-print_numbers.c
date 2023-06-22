@@ -1,3 +1,4 @@
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -9,7 +10,7 @@
  * @n: The number of integers to be printed
  * @...: The list of integers to be printed
  */
-void print_numbers(const char *separator, const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i = 0;
 	va_list arg_list;
