@@ -6,7 +6,6 @@
  * @h: Pointer to a linked list head.
  * Return: The number of total nodes in the linked list.
  */
-
 size_t print_list(const list_t *h)
 {
 	size_t count = 0;
