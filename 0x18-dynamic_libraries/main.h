@@ -2,8 +2,13 @@
 #define MAIN_H
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 int _putchar(char c);
+int add(int a, int b);
+int sub(int a, int b);
+int mul(int a, int b);
+int divs(int a, int b);
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
